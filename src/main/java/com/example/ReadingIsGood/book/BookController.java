@@ -25,4 +25,7 @@ public class BookController {
         SuccessResponse response = new SuccessResponse(bookResponse, "New book created.");
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
+
+    //TODO implement request method for updating book stock
+
 }
